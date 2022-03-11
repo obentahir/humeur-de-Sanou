@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+h1 {
+color: #D46585 ; 
+font-size: 70px;
+}
+
+H2 {
+	color: #D46585;
+}
+
+body {
+	font-family: 'Lora', serif;
+	background: linear-gradient(#E0CDA9, #d46585);
+}
+
+H1, H2{
+	font-family: 'Roboto' sans-serif;
+}
+
+.photo {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+div {
+	background-color: white;
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+    margin: 16px auto;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px 0px #00000038;
+}
+
+.banner-text {
+	box-shadow: none;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+.banner-photo {
+	box-shadow: none;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+
+.part1-centre {
+    background-color: white;
+    text-align: center;
+    padding: 24px;
+    width: 45%;
+    margin: 16px auto;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px 0px #00000038;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.fa-brands {
+	font-size: 40PX;
+	color: #9E9E9E;
+}
+.fa-brands : hover {
+	color: black;
+}
+
+#avatar {
+	width: 300px;
+    height: 500px;
+	object-fit: cover;
+	border-radius: 20%;
+	margin: 0px;
+}
+
+.banner-text {
+	margin-left: 20px;
+}
+a{
+	text-decoration: none;
+}
+
+.btn-blue {
+	color: white;
+	background-color: #6b72e1;
+	padding: 15px 20px;
+	border-radius: 6px;
+	font-family: 'Roboto' sans-serif;
+	font-weight: bolder;
+	font-size: 16px;
+	width: 30%;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #6b72e1;
+	transition: 1s;
+}
+.btn-blue:hover {
+	background-color: white;
+	color: #6b72e1;
+	transition: 1s;
+
+}
+.list-inline {
+	padding: 0;
+	list-style: none;
+}
+.list-inline li {
+	display: inline;
+	margin: 0 16px;
+
+}
+.part1-centre {
+	padding: 0;
+	list-style: none;	
+}
+.part1-centre li {
+	display: inline;
+	margin: 0 16px;
+}
